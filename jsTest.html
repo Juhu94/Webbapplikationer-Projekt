@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Test hej hopp</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<h1>Quiz</h1>	
+		<input type="text" placeholder="Number of questions (max 50)" id="nbrOfQ">
+		<select name="difficulty" id="difficulty">
+			<option>Any difficulty</option>
+			<option>Easy</option>
+			<option>Medium</option>
+			<option>Hard</option>
+		</select>
+		
+		<select name="category" id="category">
+			<option>Any category</option>
+		</select>
+	
+		<a href="#" id="get-q">Get questions</a>
+		
+		<p id="question"></P>
+		<ul id ="answers">
+		</ul>
+		<a href="#" id="next-q">Next Questions</a>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="script.js"></script>		
+	</body>
+</html>
