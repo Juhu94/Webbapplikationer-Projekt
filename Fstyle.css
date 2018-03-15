@@ -1,5 +1,6 @@
 body {
   background-color: #eeeeee;
+  text-align: center;
 }
 
 .grid {
@@ -52,20 +53,25 @@ body {
   padding: 10px 10px;
 }
 
-#startQuiz {
+.startQuiz {
   width: 350px;
-  font-size: 20px;
+  font-size: 25px;
   border: 1px solid #1d3c6a;
   border-radius: 50px;
   margin: 20px 40px 10px 0px;
-  padding: 10px 10px;
+  padding: 10px 120px;
 }
 
-#historia {
+a {
+  text-decoration: none;
+}
+
+.historia {
   width: 350px;
-  font-size: 20px;
+  font-size: 25px;
   border: 1px solid #1d3c6a;
   border-radius: 50px;
   margin: 20px 40px 10px 0px;
-  padding: 10px 10px;
+  padding: 10px 120px;
+
 }
