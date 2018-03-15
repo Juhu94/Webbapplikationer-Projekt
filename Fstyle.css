@@ -54,6 +54,7 @@ body {
 }
 
 .startQuiz {
+  display:block;
   width: 350px;
   font-size: 25px;
   border: 1px solid #1d3c6a;
@@ -67,6 +68,7 @@ a {
 }
 
 .historia {
+  display:block;
   width: 350px;
   font-size: 25px;
   border: 1px solid #1d3c6a;
