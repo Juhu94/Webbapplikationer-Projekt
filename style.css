@@ -77,3 +77,15 @@ a {
   display: block;
 
 }
+
+.grid #listGames {
+  list-style:circle;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	background-color: #ddd;
+	padding: 2px 10px;
+	margin-bottom: 2px;
+}
