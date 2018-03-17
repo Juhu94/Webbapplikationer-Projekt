@@ -80,6 +80,8 @@ a {
 
 .grid #listGames {
   list-style:circle;
+  font-family: sans-serif;
+  font-weight: bold;
 	margin: 0px;
 	padding: 0px;
 }

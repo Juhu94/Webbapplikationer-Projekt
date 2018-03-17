@@ -116,7 +116,7 @@ function startHistory() {
 	console.log("games: " + games);
 	for(var j = 0; j < games.length; j++){
 		console.log("Funkar något? " + games[j].points + " ---- " + games[j].number_questions + " ---- " + games[j].date);
-		$("#listGames").append("<li class=" + "historyLI" + ">"+"Points: " + games[j].points + " out of " + games[j].number_questions + ". Category: " + games[j].category + " Difficulty: " + games[j].difficulty + " Date: " + games[j].date + "</li>");
+		$("#listGames").append("<li class=" + "historyLI" + ">"+"POINTS: " + games[j].points + " out of " + games[j].number_questions + " | CATEGORY: " + games[j].category + " | DIFFICULTY: " + games[j].difficulty + " | DATE: " + games[j].date + "</li>");
 	}
 	localStorage.removeItem("loadHistory");
 }
