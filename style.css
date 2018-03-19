@@ -1,93 +1,99 @@
-body {
-  background-color: #eeeeee;
-  text-align: center;
-}
 
-.grid {
-  width: 600px;
-  height: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 10px 50px 50px 50px;
-  border-radius: 50px;
-  border: 2px solid #cbcbcb;
-  box-shadow: 10px 15px 5px #cbcbcb;
-}
+	body {
+	background-color: #eeeeee;
+	text-align: center;
+	}
 
-.grid h1 {
-  font-family: sans-serif;
-  background-color: #364c36;
-  font-size: 60px;
-  text-align: center;
-  color: #fff;
-  padding: 2px 0px;
-  border-radius: 50px;
-}
+	.grid {
+	width: 50%;
+	height: 60%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #cbcbcb;
+	box-shadow: 10px 15px 5px #cbcbcb;
+	}
 
-.grid #nbrOfQ {
-  background-color: #FFFFFF;
-  width: 350px;
-  font-size: 20px;
-  color: black;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 20px 40px 10px 0px;
-  padding: 10px 10px;
-}
+	.grid h1 {
+	font-family: sans-serif;
+	background-color: #364c36;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+	padding: 2px 0px;
+	border-radius: 50px;
+	}
 
-.grid #difficulty {
-  width: 350px;
-  font-size: 20px;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 20px 40px 10px 0px;
-  padding: 10px 10px;
-}
+	.grid #nbrOfQ {
+	background-color: #FFFFFF;
+	width: 97%;
+	font-size: 20px;
+	color: black;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 20px 40px 10px 0px;
+	padding: 10px 10px;
+	}
 
-.grid #category {
-  width: 350px;
-  font-size: 20px;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 20px 40px 10px 0px;
-  padding: 10px 10px;
-}
+	.grid #difficulty {
+	width: 100%;
+	font-size: 20px;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 20px 40px 10px 0px;
+	padding: 10px 10px;
+	}
 
-.startQuiz {
-  width: 350px;
-  font-size: 25px;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 20px 40px 10px 0px;
-  padding: 10px 120px;
-  display: block;
-}
+	.grid #category {
+	width: 100%;
+	font-size: 20px;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin: 20px 40px 10px 0px;
+	padding: 10px 10px;
+	}
 
-a {
-  text-decoration: none;
-}
+	.startQuiz {
+	width: 100%;
+	font-size: 25px;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	padding: 10px 5px;
+	display: block;
+	}
 
-.historia {
-  width: 350px;
-  font-size: 25px;
-  border: 1px solid #1d3c6a;
-  border-radius: 50px;
-  margin: 20px 40px 10px 0px;
-  padding: 10px 120px;
-  display: block;
+	a {
+	text-decoration: none;
+	}
 
-}
+	.historia {
+	width: 100%;
+	font-size: 25px;
+	border: 1px solid #1d3c6a;
+	border-radius: 50px;
+	margin-top:15px;
+	padding: 10px 5px;
+	display: block;
 
-.grid #listGames {
-  list-style:circle;
-  font-family: sans-serif;
-  font-weight: bold;
+	}
+
+	.grid #listGames {
+	list-style:circle;
+	font-family: sans-serif;
+	font-weight: bold;
 	margin: 0px;
 	padding: 0px;
-}
+	}
 
-li {
+	li {
 	background-color: #ddd;
 	padding: 2px 10px;
 	margin-bottom: 2px;
-}
+	}
+	
+
+
+
+
+

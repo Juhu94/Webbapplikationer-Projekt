@@ -3,14 +3,15 @@ body {
 }
 
 .grid {
-  width: 600px;
-  height: 500px;
+  width: 50%;
+  height: 60%;
   margin: 0 auto;
   background-color: #fff;
   padding: 10px 50px 50px 50px;
   border-radius: 50px;
   border: 2px solid #cbcbcb;
   box-shadow: 10px 15px 5px #cbcbcb;
+  text-align: center;
 }
 
 .grid h1 {
@@ -27,6 +28,7 @@ body {
   font-family: sans-serif;
   font-size: 30px;
   color: #5a6772;
+  text-align: center;
 }
 
 .buttons {
@@ -34,12 +36,12 @@ body {
 }
 
 #btn0, #btn1, #btn2, #btn3, #next-q {
-  width: 250px;
+  width: 45%;
   font-size: 20px;
   color: #fff;
   border: 1px solid #1d3c6a;
   border-radius: 50px;
-  margin: 10px 40px 10px 0px;
+  margin: 10px;
   padding: 10px 10px;
 }
 
